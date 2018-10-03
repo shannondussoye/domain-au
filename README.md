@@ -42,4 +42,8 @@ link to Jira board: https://shannondussoye.atlassian.net/browse/DOMAIN
 3. `pip3.6 freeze -l > ~/Github/domain-au/requirements.txt` 
 4. `deactivate
 
+##### Create branch
+1. git checkout -b [name_of_your_new_branch]
+2. git push origin [name_of_your_new_branch]
+
 https://www.pythonforbeginners.com/basics/how-to-use-python-virtualenv`

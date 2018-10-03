@@ -11,10 +11,10 @@ class TestAdvancedGet(unittest.TestCase):
         self.assertEqual(post_c['postcode'][155], 2147)
 
 # test simple get
-class TestSimpleGet(unittest.TestCase):
-    def test_simple_get(self):
-        self.assertIsNotNone(
-            get.simple_get('https://www.domain.com.au/rent/?excludedeposittaken=1&postcode=2000&page=1'))
+# class TestSimpleGet(unittest.TestCase):
+#     def test_simple_get(self):
+#         self.assertIsNotNone(
+#             get.simple_get('https://www.domain.com.au/rent/?excludedeposittaken=1&postcode=2000&page=1'))
 
 if __name__ == '__name__':
     unittest.main()
