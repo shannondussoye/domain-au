@@ -1,10 +1,6 @@
-import sys
-# add path to func
-sys.path.insert(0, '../domain-au/')
-
 import unittest
 import pandas as pd
-import simpleget as get
+from domain import simpleget as get
 
 # read csv
 class TestAdvancedGet(unittest.TestCase):
