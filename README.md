@@ -1,5 +1,8 @@
 # Domain Australia Scraper
 
+[ ![Codeship Status for shannondussoye/domain-au](https://app.codeship.com/projects/dbac8260-a915-0136-761d-2e2cf4f8517e/status?branch=master)](https://app.codeship.com/projects/308716) [![Build Status](https://travis-ci.org/shannondussoye/domain-au.svg?branch=master)](https://travis-ci.org/shannondussoye/domain-au) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2463d3283dea4ec0891ec2d39ecd71dd)](https://www.codacy.com/app/shannondussoye/domain-au?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shannondussoye/domain-au&amp;utm_campaign=Badge_Grade)
+
+
 ## About project
 This is a personal and side project for finding a better place to rent in Sydney taking multiple factors into consideration.
 
