@@ -1,7 +1,7 @@
 language: python
 python:
   - "3.6"
-before_script: cd domain-au
+before_script: cd "domain-au"
 before_install:
   - "pip install -U pip"
   - "python setup.py install"

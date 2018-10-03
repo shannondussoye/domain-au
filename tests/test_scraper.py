@@ -5,7 +5,7 @@ import domain.simpleget as get
 # read csv
 class TestAdvancedGet(unittest.TestCase):
     def test_advanced_get(self):
-        post_c = pd.read_csv('../data/Post Codes.csv', names=['postcode'])
+        post_c = pd.read_csv('data/Post Codes.csv', names=['postcode'])
         self.assertIsNotNone(post_c)
         self.assertEqual(post_c['postcode'][0],800)
         self.assertEqual(post_c['postcode'][155], 2147)
