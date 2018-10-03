@@ -1,5 +1,7 @@
 # Domain Australia Scraper
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/11560620a4044adf98499c24d86b7506)](https://app.codacy.com/app/shannondussoye/domain-au?utm_source=github.com&utm_medium=referral&utm_content=shannondussoye/domain-au&utm_campaign=Badge_Grade_Dashboard)
+
 ## About project
 This is a personal and side project for finding a better place to rent in Sydney taking multiple factors into consideration.
 
