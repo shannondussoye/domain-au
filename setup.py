@@ -10,15 +10,16 @@ import os
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
+NAME = 'Domain Australia Scraper'
+DESCRIPTION = 'A personal project that scrapes domain.com.au for analysis using additional features e.g. fare'
+URL = 'https://github.com/shannondussoye/domain-au'
 EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+AUTHOR = 'Shannon Dussoye'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = None
 
 # What packages are required for this module to be executed?
+<<<<<<< HEAD
 REQUIRED = [
     # 'requests', 'maya', 'records',
 ]
@@ -86,3 +87,19 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
 )
+=======
+# REQUIRED = [
+#     'requests', 'pandas', 'bs4','json'
+# ]
+
+from setuptools import setup, find_packages
+
+setup(name=NAME,
+      version='0.0.1',
+      description=DESCRIPTION,
+      author=AUTHOR,
+      author_email=EMAIL,
+      url=URL,
+      packages=find_packages(),
+     )
+>>>>>>> 146ca1472ffff0249576866239199481c076e34d
