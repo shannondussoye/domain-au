@@ -16,5 +16,11 @@ class TestAdvancedGet(unittest.TestCase):
 #         self.assertIsNotNone(
 #             get.simple_get('https://www.domain.com.au/rent/?excludedeposittaken=1&postcode=2000&page=1'))
 
+# TODO: Write test for reading json data
+# TODO: Write test for cleaning data
+# TODO: Write test for connecting to db
+# TODO: Write test to insert, retrieve and delete
+
+
 if __name__ == '__name__':
     unittest.main()
