@@ -10,6 +10,8 @@ __Factors:__
 - Commute time
 - Commute Cost
 - Number of bedrooms against price
+- Suburb Profile from ABS
+- POI (shopping places)
 
 #### Motivation
 Sydney is one of the most expensive cities to live in the world. Public transport isn't great and the cost to commute is increasing everytime. 
