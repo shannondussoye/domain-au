@@ -9,8 +9,7 @@ list_data = []
 
 # read Postcode Fileç
 post_c = pd.read_csv('../data/Post Codes.csv', names=['postcode'])
-#post_i = iter(post_c['postcode'].tolist())
-post_i = iter([800,2000,3000])
+post_i = iter(post_c['postcode'].tolist())
 urls = ("https://www.domain.com.au/rent/?excludedeposittaken=1&postcode={}&page=1".format(i) for i in post_i)
 
 
