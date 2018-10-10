@@ -1,4 +1,4 @@
-from aiohttp import ClientSession, TCPConnector, request
+from aiohttp import ClientSession, TCPConnector
 from pypeln import asyncio_task as aio
 import pandas as pd
 from bs4 import BeautifulSoup
