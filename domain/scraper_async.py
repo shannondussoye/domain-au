@@ -7,9 +7,10 @@ import re
 
 list_data = []
 
-# read Postcode File
+# read Postcode Fileç
 post_c = pd.read_csv('../data/Post Codes.csv', names=['postcode'])
-post_i = iter(post_c['postcode'].tolist())
+#post_i = iter(post_c['postcode'].tolist())
+post_i = iter([800,2000,3000])
 urls = ("https://www.domain.com.au/rent/?excludedeposittaken=1&postcode={}&page=1".format(i) for i in post_i)
 
 
@@ -26,7 +27,10 @@ async def html_parser(html):
                     " "). \
                     replace(";</script>", "").encode("utf-8").decode('utf-8', 'ignore').strip()
                 list_data.append(js_data)
-                pages = ((json.loads(js_data)['totalPages']) + 1)
+                if 'totalPages' in json.loads(js_data):
+                    pages = ((json.loads(js_data)['totalPages']) + 1)
+                else:
+                    pages = 0
             else:
                 continue
         return pages
