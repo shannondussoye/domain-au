@@ -1,13 +1,15 @@
 import unittest
 import pandas as pd
 
-# read csv
-class TestAdvancedGet(unittest.TestCase):
-    def test_advanced_get(self):
-        post_c = pd.read_csv('data/Post Codes.csv', names=['postcode'])
-        self.assertIsNotNone(post_c)
-        self.assertEqual(post_c['postcode'][0],800)
-        self.assertEqual(post_c['postcode'][155], 2147)
+# test to read post code
+class TestPostCodeFile(unittest.TestCase):
+   def test_read_post_code(self):
+       post_c = pd.read_csv('../data/Post Codes.csv', names=['postcode'])
+       self.assertIsNotNone(post_c)
+       self.assertEqual(post_c['postcode'][0], 800)
+       self.assertEqual(post_c['postcode'][155], 2147)
+
+
 
 
 # TODO: Write test for reading json data
