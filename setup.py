@@ -10,7 +10,7 @@ import os
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'Domain Australia Scraper'
+NAME = 'domain'
 DESCRIPTION = 'A personal project that scrapes domain.com.au for analysis using additional features e.g. fare'
 URL = 'https://github.com/shannondussoye/domain-au'
 EMAIL = 'me@example.com'
